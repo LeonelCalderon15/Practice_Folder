@@ -40,4 +40,5 @@ jobs:
       # run tests!
       - run: whereis google-chrome-stable
       - run: google-chrome --version
-      - run: mvn test
+      #- run: mvn test
+        run: mvn integration-test
